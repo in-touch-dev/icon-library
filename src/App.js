@@ -1,5 +1,5 @@
 import React from 'react';
-import Icon from './components/icons/index';
+import Icon from './components/icons/InTouchIcons';
 
 const App = props => {
 	const style = {
