@@ -1,10 +1,8 @@
 import React from 'react';
-import Icon from './components/Icon';
-import Logo from './icons';
+import Icon from './components/icons/index';
 
 const App = props => {
-	const { iconName } = props;
-	return <Icon iconName={iconName} />;
+	return <Icon iconName={'networkDark'} />;
 };
 
 export default App;

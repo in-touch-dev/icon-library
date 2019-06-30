@@ -1,15 +1,17 @@
-const Icons = {
-	MessageDark: (
+import React from 'react';
+
+const MessageDark = props => {
+	return (
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
-			xmlns:xlink="http://www.w3.org/1999/xlink"
+			xmlnsXlink="http://www.w3.org/1999/xlink"
 			viewBox="0 0 141.73 141.73"
 		>
 			<defs>
 				<path id="A" d="M39.5 40.56h56.98v55.4H39.5z" />
 			</defs>
 			<clipPath id="B">
-				<use xlink:href="#A" />
+				<use xlinkHref="#A" />
 			</clipPath>
 			<g fill="#30353a">
 				<path
@@ -19,5 +21,7 @@ const Icons = {
 				<path d="M50.2 51.3h21.37v3.57H50.2zm0 7.14h14.24V62H50.2zm0 7.14h14.24v3.57H50.2z" />
 			</g>
 		</svg>
-	),
+	);
 };
+
+export default MessageDark;
