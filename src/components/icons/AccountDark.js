@@ -9,10 +9,7 @@ const AccountDark = props => {
 			xmlnsXlink="http://www.w3.org/1999/xlink"
 			viewBox="0 0 141.73 141.73"
 		>
-			<path
-				d="M60.48 74h3.63v3.63h-3.63zm10.9 0H75v3.63h-3.63z"
-				fill="#30353a"
-			/>
+			<path d="M60.48 74h3.63v3.63h-3.63zm10.9 0H75v3.63h-3.63z" fill={fill} />
 			<defs>
 				<path id="A" d="M44.13 41.28h47.25v54.54H44.13z" />
 			</defs>

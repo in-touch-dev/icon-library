@@ -8,7 +8,7 @@ const App = props => {
 
 	return (
 		<div style={style}>
-			<Icon iconName={'messageDark'} fill="green" />
+			<Icon iconName={'accountDark'} fill="green" />
 		</div>
 	);
 };
