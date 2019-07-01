@@ -1,5 +1,5 @@
 import React from 'react';
-// import propTypes from 'prop-types';
+import propTypes from 'prop-types';
 
 const Account = props => {
 	const style = {
@@ -31,6 +31,17 @@ const Account = props => {
 	);
 };
 
-// Account
+Account.propTypes = {
+	width: propTypes.string,
+	ariaHidden: propTypes.string,
+	focusable: propTypes.string,
+	fill: propTypes.string,
+};
+
+Account.defaultProps = {
+	ariaHidden: 'true',
+	focusable: 'false',
+	fill: '#30353a',
+};
 
 export default Account;

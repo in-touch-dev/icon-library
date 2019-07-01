@@ -14,7 +14,7 @@ const App = props => {
 			<div>
 				<Icon
 					iconName={'message'}
-					fill={'green'}
+					fill={'blue'}
 					width={'200px'}
 					ariaHidden={'true'}
 					focusable={'false'}
@@ -48,13 +48,7 @@ const App = props => {
 				/>
 			</div>
 			<div>
-				<Icon
-					iconName={'message'}
-					fill={'green'}
-					width={'200px'}
-					ariaHidden={'true'}
-					focusable={'false'}
-				/>
+				<Icon iconName={'message'} />
 			</div>
 		</React.Fragment>
 	);

@@ -1,4 +1,5 @@
 import React from 'react';
+import propTypes from 'prop-types';
 
 const Message = props => {
 	const style = {
@@ -24,6 +25,19 @@ const Message = props => {
 			</g>
 		</svg>
 	);
+};
+
+Message.propTypes = {
+	width: propTypes.string,
+	ariaHidden: propTypes.string,
+	focusable: propTypes.string,
+	fill: propTypes.string,
+};
+
+Message.defaultProps = {
+	ariaHidden: 'true',
+	focusable: 'false',
+	fill: '#30353a',
 };
 
 export default Message;
