@@ -5,6 +5,7 @@ import Network from './Network';
 import Profile from './Profile';
 import Resources from './Resources';
 import Work from './Work';
+import Settings from './Settings';
 
 const Icon = props => {
 	switch (props.iconName) {
@@ -20,6 +21,8 @@ const Icon = props => {
 			return <Resources {...props} />;
 		case 'work':
 			return <Work {...props} />;
+		case 'settings':
+			return <Settings {...props} />;
 		default:
 			return <div>Check the iconName prop is correct</div>;
 	}
