@@ -22,7 +22,7 @@ yarn add in-touch-icons
 Import the Icon component
 
 ```Javascript
-import Icon from 'in-touch-icons';
+import {Icon} from 'in-touch-icons';
 ```
 Add the Icon component and pass it the relevant props
 
