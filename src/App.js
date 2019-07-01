@@ -40,8 +40,8 @@ const App = props => {
 			</div>
 			<div>
 				<Icon
-					iconName={'message'}
-					fill={'green'}
+					iconName={'resources'}
+					fill={'yellow'}
 					width={'200px'}
 					ariaHidden={'true'}
 					focusable={'false'}
