@@ -1,5 +1,5 @@
 import React from 'react';
-import Icon from './components/icons/InTouchIcons';
+import Icon from './lib/InTouchIcons';
 
 const App = props => {
 	return (

@@ -1,6 +1,6 @@
 {
   "name": "in-touch-icons",
-  "version": "1.0.0",
+  "version": "1.0.0-rc1",
   "description": "An Icon library for use with all In Touch apps based on ReactJS",
   "main": "/src/components/icons/InTouchIcons.js",
   "husky": {
