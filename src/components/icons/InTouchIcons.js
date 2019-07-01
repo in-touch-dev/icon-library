@@ -2,6 +2,7 @@ import React from 'react';
 import Account from './Account';
 import Message from './Message';
 import Network from './Network';
+import Profile from './Profile';
 
 const Icon = props => {
 	switch (props.iconName) {
@@ -11,6 +12,8 @@ const Icon = props => {
 			return <Message {...props} />;
 		case 'network':
 			return <Network {...props} />;
+		case 'profile':
+			return <Profile {...props} />;
 		default:
 			return <div>Check the iconName prop is correct</div>;
 	}
