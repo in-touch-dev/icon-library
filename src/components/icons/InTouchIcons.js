@@ -1,16 +1,16 @@
 import React from 'react';
-import AccountDark from './AccountDark';
-import MessageDark from './MessageDark';
-import NetworkDark from './NetworkDark';
+import Account from './Account';
+import Message from './Message';
+import Network from './Network';
 
 const Icon = props => {
 	switch (props.iconName) {
-		case 'accountDark':
-			return <AccountDark {...props} />;
-		case 'messageDark':
-			return <MessageDark {...props} />;
-		case 'networkDark':
-			return <NetworkDark {...props} />;
+		case 'account':
+			return <Account {...props} />;
+		case 'message':
+			return <Message {...props} />;
+		case 'network':
+			return <Network {...props} />;
 		default:
 			return <div>Check the iconName prop is correct</div>;
 	}
