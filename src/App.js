@@ -48,7 +48,7 @@ const App = props => {
 				/>
 			</div>
 			<div>
-				<Icon iconName={'message'} />
+				<Icon iconName={'work'} fill={'orange'} width={'200px'} />
 			</div>
 		</React.Fragment>
 	);
