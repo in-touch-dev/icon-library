@@ -3,13 +3,22 @@ import Icon from './components/icons/InTouchIcons';
 
 const App = props => {
 	return (
-		<Icon
-			iconName={'account'}
-			fill={'green'}
-			width={'200px'}
-			ariaHidden={'true'}
-			focusable={'false'}
-		/>
+		<React.Fragment>
+			<Icon
+				iconName={'account'}
+				fill={'green'}
+				width={'200px'}
+				ariaHidden={'true'}
+				focusable={'false'}
+			/>
+			<Icon
+				iconName={'message'}
+				fill={'green'}
+				width={'200px'}
+				ariaHidden={'true'}
+				focusable={'false'}
+			/>
+		</React.Fragment>
 	);
 };
 
