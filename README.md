@@ -1,18 +1,67 @@
-# icon-library
-A library of icons for InTouch apps
+# In Touch React Icon Library
+A library of icons for InTouch apps based on ReactJS
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Contributing](#contributing)
 
 ## Installation
+Install via NPM 
+```shell
+npm install in-touch-icons
+```
+or use yarn
+```shell
+yarn add in-touch-icons
+```
+
+## Usage
+
+Import the Icon component
+
+```Javascript
+import Icon from 'in-touch-icons';
+```
+Add the Icon component and pass it the relevant props
+
+```Javascript
+<Icon iconName={'messages'} fill={'green'} />
+```
+
+### Icons Available
+
+Currenlty the list of icons includes
+- account
+- message
+- network
+- profile
+- resources
+- settings
+- work
+
+
+### All Props
+The available props are
+
+| Props                                                                  |Example                                      | Defaults                   |
+|------------------------------------------------------------------------|---------------------------------------------|----------------------------|
+| iconName                                                               | `iconName={'messages'}`                     |        n/a                 |
+| fill                                                                   | `fill={'#ffa500'}`                          |   #30353a                  |
+| width                                                                  | `width={'150px'}`                           |        n/a			        |
+| ariaHidden                                                             | `ariaHidden={'true'}`                       |   true                     |
+| focusable                                                              | `focusable={'false'}`                       |   false                    |
+
+## Contributing
+
 Download the repo to your machine
 ```shell
 git clone https://github.com/in-touch-dev/icon-library.git
 ```
 
-## Usage  
+Then to get up and running with a dev environment
+
 In the project directory, you can run:
 ```shell
 yarn start
