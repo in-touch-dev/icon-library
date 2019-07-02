@@ -7,7 +7,7 @@ const App = props => {
 			<Icon
 				iconName={'account'}
 				fill={'green'}
-				width={'200px'}
+				width={'50px'}
 				ariaHidden={'true'}
 				focusable={'false'}
 			/>

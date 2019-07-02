@@ -8,7 +8,7 @@ const Account = props => {
 
 	return (
 		<svg
-			className="account-icon"
+			className={`icon-itn account-icon ${props.svgClass}`}
 			style={style}
 			xmlns="http://www.w3.org/2000/svg"
 			xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -36,6 +36,7 @@ Account.propTypes = {
 	ariaHidden: propTypes.string,
 	focusable: propTypes.string,
 	fill: propTypes.string,
+	svgClass: propTypes.string,
 };
 
 Account.defaultProps = {

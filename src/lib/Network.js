@@ -8,7 +8,7 @@ const Network = props => {
 
 	return (
 		<svg
-			className="network-icon"
+			className={`icon-itn network-icon ${props.svgClass}`}
 			style={style}
 			xmlns="http://www.w3.org/2000/svg"
 			xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -32,6 +32,7 @@ Network.propTypes = {
 	ariaHidden: propTypes.string,
 	focusable: propTypes.string,
 	fill: propTypes.string,
+	svgClass: propTypes.string,
 };
 
 Network.defaultProps = {
