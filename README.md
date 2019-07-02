@@ -52,6 +52,24 @@ The available props are
 | width                                                                  | `width={'150px'}`                           |        n/a			        |
 | ariaHidden                                                             | `ariaHidden={'true'}`                       |   true                     |
 | focusable                                                              | `focusable={'false'}`                       |   false                    |
+| svgClass                                                               | `svgClass={'a-class'}`                      |   n/a                      |
+
+
+## Adding new icons to the library
+Firstly create a new component to hold the svg code by copying one of the current components. Remember to update all the propTypes and component name etc. Before adding the new svg code, make sure to compress and minify with an appropriate online tool (eg. https://vecta.io/nano) then remove all references to clip-path within the SVG.
+
+After the component containing the SVG is prepared, import it to the index.js and then also import into the InTouchIcons.js component, then update IntouchIcons.js switch case to include the new component. Your icon is now added, make sure to add it to the list of icons in the readme.
+
+Update the version (in the package.json) by 0.0.1 and then push all your changes to the repo.
+
+Then publish the update to npm by running
+```shell
+npm publish
+```
+Your update should now be live on NPM. Make sure to update the package in your project by running
+```shell
+yarn upgrade in-touch-icons
+```
 
 ## Contributing
 
