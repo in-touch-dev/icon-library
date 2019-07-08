@@ -42,6 +42,7 @@ Currenlty the list of icons includes
 - work
 - close
 - play
+- basket
 
 
 ### All Props
