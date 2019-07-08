@@ -40,6 +40,8 @@ Currenlty the list of icons includes
 - resources
 - settings
 - work
+- close
+- play
 
 
 ### All Props
