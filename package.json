@@ -1,6 +1,6 @@
 {
   "name": "in-touch-icons",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An Icon library for use with all In Touch apps based on ReactJS",
   "main": "dist/index.js",
   "module": "dist/index.js",
