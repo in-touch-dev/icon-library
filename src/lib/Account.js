@@ -41,6 +41,7 @@ Account.propTypes = {
 
 Account.defaultProps = {
 	ariaHidden: 'true',
+	svgClass: '',
 	focusable: 'false',
 	fill: '#30353a',
 };

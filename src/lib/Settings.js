@@ -37,6 +37,7 @@ Settings.propTypes = {
 
 Settings.defaultProps = {
 	ariaHidden: 'true',
+	svgClass: '',
 	focusable: 'false',
 	fill: '#30353a',
 };
