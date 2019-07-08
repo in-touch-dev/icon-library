@@ -6,6 +6,8 @@ import Profile from './Profile';
 import Resources from './Resources';
 import Work from './Work';
 import Settings from './Settings';
+import Close from './Close';
+import Play from './Play';
 
 const Icon = props => {
 	switch (props.iconName) {
@@ -23,6 +25,10 @@ const Icon = props => {
 			return <Work {...props} />;
 		case 'settings':
 			return <Settings {...props} />;
+		case 'close':
+			return <Close {...props} />;
+		case 'play':
+			return <Play {...props} />;
 		default:
 			return <div>Check the iconName prop is correct</div>;
 	}

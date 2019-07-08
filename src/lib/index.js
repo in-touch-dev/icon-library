@@ -6,4 +6,17 @@ import Profile from './Profile';
 import Resources from './Resources';
 import Work from './Work';
 import Settings from './Settings';
-export { Icon, Account, Message, Network, Profile, Resources, Work, Settings };
+import Close from './Close';
+import Play from './Play';
+export {
+	Icon,
+	Account,
+	Message,
+	Network,
+	Profile,
+	Resources,
+	Work,
+	Settings,
+	Close,
+	Play,
+};
