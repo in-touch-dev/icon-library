@@ -8,6 +8,7 @@ import Work from './Work';
 import Settings from './Settings';
 import Close from './Close';
 import Play from './Play';
+import Basket from './Basket';
 
 const Icon = props => {
 	switch (props.iconName) {
@@ -29,6 +30,8 @@ const Icon = props => {
 			return <Close {...props} />;
 		case 'play':
 			return <Play {...props} />;
+		case 'basket':
+			return <Basket {...props} />;
 		default:
 			return <div>Check the iconName prop is correct</div>;
 	}

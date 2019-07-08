@@ -8,6 +8,7 @@ import Work from './Work';
 import Settings from './Settings';
 import Close from './Close';
 import Play from './Play';
+import Basket from './Basket';
 export {
 	Icon,
 	Account,
@@ -19,4 +20,5 @@ export {
 	Settings,
 	Close,
 	Play,
+	Basket,
 };

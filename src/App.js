@@ -59,6 +59,9 @@ const App = props => {
 			<div>
 				<Icon iconName={'play'} fill={'teal'} width={'200px'} />
 			</div>
+			<div>
+				<Icon iconName={'basket'} fill={'grey'} width={'200px'} />
+			</div>
 		</React.Fragment>
 	);
 };
