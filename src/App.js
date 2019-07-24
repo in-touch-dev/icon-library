@@ -8,46 +8,16 @@ const App = props => {
 	};
 	return (
 		<div style={style}>
-			<Icon
-				iconName={'account'}
-				fill={'green'}
-				width={'50px'}
-				ariaHidden={'true'}
-				focusable={'false'}
-			/>
-			<Icon
-				iconName={'message'}
-				fill={'blue'}
-				width={'200px'}
-				ariaHidden={'true'}
-				focusable={'false'}
-			/>
-			<Icon
-				iconName={'network'}
-				fill={'green'}
-				width={'200px'}
-				ariaHidden={'true'}
-				focusable={'false'}
-			/>
-			<Icon
-				iconName={'profile'}
-				fill={'red'}
-				width={'200px'}
-				ariaHidden={'true'}
-				focusable={'false'}
-			/>
-			<Icon
-				iconName={'resources'}
-				fill={'yellow'}
-				width={'200px'}
-				ariaHidden={'true'}
-				focusable={'false'}
-			/>
-			<Icon iconName={'work'} fill={'orange'} width={'200px'} />
-			<Icon iconName={'settings'} fill={'black'} width={'200px'} />
-			<Icon iconName={'close'} fill={'purple'} width={'200px'} />
-			<Icon iconName={'play'} fill={'teal'} width={'200px'} />
-			<Icon iconName={'basket'} fill={'grey'} width={'200px'} />
+			<Icon iconName={'account'} />
+			<Icon iconName={'message'} />
+			<Icon iconName={'network'} />
+			<Icon iconName={'profile'} />
+			<Icon iconName={'resources'} />
+			<Icon iconName={'work'} />
+			<Icon iconName={'settings'} />
+			<Icon iconName={'close'} />
+			<Icon iconName={'play'} />
+			<Icon iconName={'basket'} />
 		</div>
 	);
 };
