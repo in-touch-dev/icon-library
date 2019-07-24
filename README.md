@@ -5,6 +5,7 @@ A library of icons for InTouch apps based on ReactJS
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Adding-new-icons-to-the-library](#Adding-new-icons-to-the-library)
 - [Contributing](#contributing)
 
 ## Installation
@@ -52,9 +53,9 @@ After the component containing the SVG is prepared, import it to the index.js an
 
 Update the version (in the package.json) by 0.0.1 and then push all your changes to the repo.
 
-### Pubclish to NPM 
+### Publish to NPM 
 
-Firstly make sure to build to the dist folder. run
+Firstly make sure to build to the dist folder. Run
 
 ```shell
 yarn build
