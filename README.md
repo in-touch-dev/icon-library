@@ -48,7 +48,7 @@ Currenlty the list of icons includes
 ## Adding new icons to the library
 Firstly create a new component to hold the svg code by copying one of the current components. Before adding the new svg code, make sure to compress and minify with an appropriate online tool (eg. https://vecta.io/nano) then remove all references to clip-path within the SVG.
 
-After the component containing the SVG is prepared, import it to the index.js and then also import into the IconObj.js component. Your icon is now added to the library, make sure to add it to the list of icons in the readme (above).
+After the component containing the SVG is prepared, import it to the index.js and then also import into the IconObj.js component and add it to the object. Your icon has now been added to the library, make sure to add it to the list of icons in the readme (above).
 
 Update the version (in the package.json) by 0.0.1 and then push all your changes to the repo.
 
