@@ -52,6 +52,14 @@ After the component containing the SVG is prepared, import it to the index.js an
 
 Update the version (in the package.json) by 0.0.1 and then push all your changes to the repo.
 
+### Pubclish to NPM 
+
+Firstly make sure to build to the dist folder. run
+
+```shell
+yarn build
+```
+
 Then publish the update to npm by running
 ```shell
 npm publish
