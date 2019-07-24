@@ -2,8 +2,12 @@ import React from 'react';
 import Icon from './lib/InTouchIcons';
 
 const App = props => {
+	const style = {
+		width: '150px',
+		margin: '0 auto',
+	};
 	return (
-		<React.Fragment>
+		<div style={style}>
 			<Icon
 				iconName={'account'}
 				fill={'green'}
@@ -11,58 +15,40 @@ const App = props => {
 				ariaHidden={'true'}
 				focusable={'false'}
 			/>
-			<div>
-				<Icon
-					iconName={'message'}
-					fill={'blue'}
-					width={'200px'}
-					ariaHidden={'true'}
-					focusable={'false'}
-				/>
-			</div>
-			<div>
-				<Icon
-					iconName={'network'}
-					fill={'green'}
-					width={'200px'}
-					ariaHidden={'true'}
-					focusable={'false'}
-				/>
-			</div>
-			<div>
-				<Icon
-					iconName={'profile'}
-					fill={'red'}
-					width={'200px'}
-					ariaHidden={'true'}
-					focusable={'false'}
-				/>
-			</div>
-			<div>
-				<Icon
-					iconName={'resources'}
-					fill={'yellow'}
-					width={'200px'}
-					ariaHidden={'true'}
-					focusable={'false'}
-				/>
-			</div>
-			<div>
-				<Icon iconName={'work'} fill={'orange'} width={'200px'} />
-			</div>
-			<div>
-				<Icon iconName={'settings'} fill={'black'} width={'200px'} />
-			</div>
-			<div>
-				<Icon iconName={'close'} fill={'purple'} width={'200px'} />
-			</div>
-			<div>
-				<Icon iconName={'play'} fill={'teal'} width={'200px'} />
-			</div>
-			<div>
-				<Icon iconName={'basket'} fill={'grey'} width={'200px'} />
-			</div>
-		</React.Fragment>
+			<Icon
+				iconName={'message'}
+				fill={'blue'}
+				width={'200px'}
+				ariaHidden={'true'}
+				focusable={'false'}
+			/>
+			<Icon
+				iconName={'network'}
+				fill={'green'}
+				width={'200px'}
+				ariaHidden={'true'}
+				focusable={'false'}
+			/>
+			<Icon
+				iconName={'profile'}
+				fill={'red'}
+				width={'200px'}
+				ariaHidden={'true'}
+				focusable={'false'}
+			/>
+			<Icon
+				iconName={'resources'}
+				fill={'yellow'}
+				width={'200px'}
+				ariaHidden={'true'}
+				focusable={'false'}
+			/>
+			<Icon iconName={'work'} fill={'orange'} width={'200px'} />
+			<Icon iconName={'settings'} fill={'black'} width={'200px'} />
+			<Icon iconName={'close'} fill={'purple'} width={'200px'} />
+			<Icon iconName={'play'} fill={'teal'} width={'200px'} />
+			<Icon iconName={'basket'} fill={'grey'} width={'200px'} />
+		</div>
 	);
 };
 
