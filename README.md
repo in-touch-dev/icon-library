@@ -24,10 +24,10 @@ Import the Icon component
 ```Javascript
 import {Icon} from 'in-touch-icons';
 ```
-Add the Icon component and pass it the relevant props
+Add the Icon component and pass it the relevant icon name
 
 ```Javascript
-<Icon iconName={'messages'} fill={'green'} />
+<Icon iconName={'message'} />
 ```
 
 ### Icons Available
@@ -45,23 +45,10 @@ Currenlty the list of icons includes
 - basket
 
 
-### All Props
-The available props are
-
-| Props                                                                  |Example                                      | Defaults                   |
-|------------------------------------------------------------------------|---------------------------------------------|----------------------------|
-| iconName                                                               | `iconName={'messages'}`                     |        n/a                 |
-| fill                                                                   | `fill={'#ffa500'}`                          |   #30353a                  |
-| width                                                                  | `width={'150px'}`                           |        n/a			        |
-| ariaHidden                                                             | `ariaHidden={'true'}`                       |   true                     |
-| focusable                                                              | `focusable={'false'}`                       |   false                    |
-| svgClass                                                               | `svgClass={'a-class'}`                      |   n/a                      |
-
-
 ## Adding new icons to the library
-Firstly create a new component to hold the svg code by copying one of the current components. Remember to update all the propTypes and component name etc. Before adding the new svg code, make sure to compress and minify with an appropriate online tool (eg. https://vecta.io/nano) then remove all references to clip-path within the SVG.
+Firstly create a new component to hold the svg code by copying one of the current components. Before adding the new svg code, make sure to compress and minify with an appropriate online tool (eg. https://vecta.io/nano) then remove all references to clip-path within the SVG.
 
-After the component containing the SVG is prepared, import it to the index.js and then also import into the InTouchIcons.js component, then update IntouchIcons.js switch case to include the new component. Your icon is now added, make sure to add it to the list of icons in the readme.
+After the component containing the SVG is prepared, import it to the index.js and then also import into the IconObj.js component. Your icon is now added to the library, make sure to add it to the list of icons in the readme (above).
 
 Update the version (in the package.json) by 0.0.1 and then push all your changes to the repo.
 
