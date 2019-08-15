@@ -44,6 +44,8 @@ Currenlty the list of icons includes
 - close
 - play
 - basket
+- category
+- episode
 
 
 ## Adding new icons to the library
