@@ -3,7 +3,7 @@ import React from 'react';
 const Settings = () => {
 	return (
 		<svg
-			className="icon-itn resources-icon"
+			className="icon-itn settings-icon"
 			xmlns="http://www.w3.org/2000/svg"
 			xmlnsXlink="http://www.w3.org/1999/xlink"
 			viewBox="13 13 34 34"

@@ -9,6 +9,8 @@ import Settings from './Settings';
 import Close from './Close';
 import Play from './Play';
 import Basket from './Basket';
+import Category from './Category';
+import Episode from './Episode';
 
 const IconObj = {
 	account: <Account />,
@@ -21,6 +23,8 @@ const IconObj = {
 	close: <Close />,
 	play: <Play />,
 	basket: <Basket />,
+	category: <Category />,
+	episode: <Episode />,
 };
 
 export default IconObj;

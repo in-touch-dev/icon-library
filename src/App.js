@@ -18,6 +18,8 @@ const App = props => {
 			<Icon iconName={'close'} />
 			<Icon iconName={'play'} />
 			<Icon iconName={'basket'} />
+			<Icon iconName={'episode'} />
+			<Icon iconName={'category'} />
 		</div>
 	);
 };

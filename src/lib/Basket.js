@@ -3,7 +3,7 @@ import React from 'react';
 const Settings = () => {
 	return (
 		<svg
-			className="icon-itn resources-icon"
+			className="icon-itn basket-icon"
 			xmlns="http://www.w3.org/2000/svg"
 			viewBox="0 0 510 510"
 			aria-hidden="true"
